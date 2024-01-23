@@ -1,1 +1,37 @@
 @import "../../color-palette";
+
+.card {
+	width: 48%;
+	height: 50%;
+	padding: 10px 0px;
+}
+
+.card-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	border: 1px solid $bg-grey;
+	background: $bg-grey-light;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $primary-color;
+}
+
+.card-title {
+	margin-top: 10px;
+	color: $text-color;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+.card-subtitle {
+	margin-top: 10px;
+	color: $text-color-grey-light;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+}

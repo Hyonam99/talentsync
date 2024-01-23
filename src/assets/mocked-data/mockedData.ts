@@ -1,7 +1,5 @@
-export type FAQdata = {
-    question: string
-    answer: string
-}
+import { FAQdata, USPdata } from "types";
+
 export const data: FAQdata[] = [
     {
         question: "How many participants can join a ClearLink video conference?",
@@ -36,3 +34,27 @@ export const data: FAQdata[] = [
             "ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.",
     },
 ];
+
+export const uspData: USPdata[] = [
+    {
+        title: "Crystal-clear HD video",
+        text: `No more pixelation or blurriness – just stunning, lifelike
+        clarity that brings your team closer in meetings.`
+    },
+    {
+        title: "Noise-canceling audio",
+        text: `Say goodbye to distractions with our advanced audio tech for
+        crisp, interruption-free conversations.`
+    },
+    {
+        title: "Scheduling made easy",
+        text: `Streamline your agenda with ClearLink's intuitive scheduling.
+        Set up meetings, send invitations, and receive reminders in one
+        place.`
+    },
+    {
+        title: "Bank-grade security",
+        text: `Your privacy is our priority with bank-grade security protocols
+        safeguarding your meetings and data from unwanted intruders.`
+    }
+]

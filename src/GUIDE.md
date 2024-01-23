@@ -1,4 +1,4 @@
-## Abbreviations and Acronyms
+## Acronyms and Meanings
 
 # ***1. USP:***
 
