@@ -1,1 +1,47 @@
 @import "../../color-palette";
+
+.item {
+	background: #d7d7d7;
+	margin: 0.5rem 0 1rem;
+	padding: 20px;
+	display: flex;
+	align-items: flex-start;
+	border-radius: 10px;
+	gap: 1rem;
+	transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+
+	h3 {
+		font-weight: 600;
+		font-size: 16px;
+		margin: 0;
+	}
+
+	p {
+		font-size: smaller;
+		margin-top: 1rem;
+		line-height: 1.5;
+	}
+}
+
+.content {
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+}
+
+.content .show {
+	display: flex;
+	height: auto;
+	max-height: 9999px;
+	transition: all ease-out 1s;
+}
+
+.accordion-btn {
+	button {
+		background: transparent;
+		border: 0;
+		will-change: contents;
+		transition: all ease-in 0.5s;
+		color: $text-color-grey;
+	}
+}

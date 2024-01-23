@@ -1,104 +1,56 @@
 @import "../../color-palette";
 
-
 .app__faqs {
-    padding: 4rem 97px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .faqs__txt {
-    line-height: 2;
-    color: #667085;
-  }
-  
-  .faqs__header {
-    color: $text-color;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 50px;
-    letter-spacing: -0.96px;
-    margin: 1rem 0;
-  }
-  
-  .support {
-    color: $primary-color;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-  }
-  
-  .faqs__box {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding: 20px 20px 10px;
+	padding: 4rem 97px;
+	display: flex;
+	justify-content: space-between;
+}
 
-    h3 {
-      font-size: medium;
-      line-height: 1.5;
-      font-size: 16px;
-      margin: 0;
-    }
-  }
-    
-  
-  .faqs__one {
-    width: 40%;
-  }
-  
-  .faqs__two {
-    width: 53%;
-  }
-  
-  .faqs__box p {
-    font-size: smaller;
-    margin-top: 1rem;
-  }
-  
-  .item {
-    background: #d7d7d7;
-    margin: 0.5rem 0 1rem;
-    padding: 20px;
-    display: flex;
-    align-items: flex-start;
-    border-radius: 10px;
-    gap: 1rem;
-    transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+.faqs__txt {
+	line-height: 2;
+	color: #667085;
+}
 
-    h3 {
-      font-weight: 600;
-      font-size: 16px;
-      margin: 0;
-    }
+.faqs__header {
+	color: $text-color;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 50px;
+	letter-spacing: -0.96px;
+	margin: 1rem 0;
+}
 
-    p {
-      font-size: smaller;
-      margin-top: 1rem;
-      line-height: 1.5;
-    }
-  }
-    
-  .content {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(1, 0, 1, 0);
-  }
-  
-  .content .show {
-    display: flex;
-    height: auto;
-    max-height: 9999px;
-    transition: all ease-out 1s;
-  }
+.support {
+	color: $primary-color;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 600;
+}
 
-  .accordion-btn {
-    button {
-      background: transparent;
-      border: 0;
-      will-change: contents;
-      transition: all ease-in .5s;
-      color: $text-color-grey
-    }
-  }
+.faqs__box {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding: 20px 20px 10px;
+
+	h3 {
+		font-size: medium;
+		line-height: 1.5;
+		font-size: 16px;
+		margin: 0;
+	}
+}
+
+.faqs__one {
+	width: 40%;
+}
+
+.faqs__two {
+	width: 53%;
+}
+
+.faqs__box p {
+	font-size: smaller;
+	margin-top: 1rem;
+}
