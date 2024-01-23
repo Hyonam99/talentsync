@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiOutlinePlusCircle, AiOutlineMinusCircle } from "react-icons/ai";
-import {type FAQdata } from "assets/mocked-data/mockedData";
+import { FAQdata } from "types";
 import "./accordion.scss";
 
 const Accordion = ({ index, data }: {index: number, data: FAQdata}) => {
