@@ -1,1 +1,98 @@
 @import "../../color-palette";
+
+.header {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 85px;
+	top: 0;
+}
+
+.talkToSales {
+	padding: 5px 20px;
+	border-radius: 100px;
+	border: 1px solid $bg-grey;
+	background: #fff;
+	box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.signuP {
+	display: flex;
+	padding: 5px 20px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	border-radius: 100px;
+	background: $primary-color;
+
+	box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+	color: $white-color;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.nav-list {
+	width: 40%;
+}
+
+.nav-button {
+	width: max-content;
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.logo {
+	width: max-content;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	gap: 10px;
+}
+
+.nav-item-title {
+	color: $text-color-grey-light;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.nav-item {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.header-content {
+	width: 100%;
+	border-radius: 100px;
+	border: 1px solid $bg-grey;
+	background: $bg-grey-light;
+	padding: 0.5rem 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-name {
+	color: $text-color;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}

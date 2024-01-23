@@ -1,9 +1,27 @@
+import {
+	ClearlinkUSP,
+	Destination,
+	FAQSection,
+	FeaturedCompanies,
+	Footer,
+	Hero,
+	Navbar,
+	Shopify,
+} from "components/exports";
 import "./App.scss";
 
 const App = () => {
-
 	return (
-		<div>ClearLink</div>
+		<>
+			<Navbar />
+			<Hero />
+			<FeaturedCompanies />
+			<ClearlinkUSP />
+			<Shopify />
+			<FAQSection />
+			<Destination />
+			<Footer />
+		</>
 	);
 };
 

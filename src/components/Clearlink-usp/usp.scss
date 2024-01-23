@@ -1,0 +1,114 @@
+@import "../../color-palette";
+
+.whyCLSubheading {
+	color: $primary-color;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.whyCLHeader {
+	color: $text-color;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 1rem 0;
+	letter-spacing: -0.96px;
+}
+
+.wcl-container {
+	padding: 100px 97px 50px 97px;
+	height: max-content;
+}
+
+.whyCLHeader-container {
+	padding-bottom: 50px;
+}
+
+.whyCLHeaderSub {
+	color: $text-color-grey-light;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.whyCLcontent-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	border: 1px solid $bg-grey;
+	background: $bg-grey-light;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.whyCLBody {
+	height: 400px;
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+.whyCLContent-top,
+.whyCLContent-bottom {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	gap: 10px;
+}
+
+.whyCLConten-container {
+	width: 58%;
+}
+
+.whyCLImage {
+	position: relative;
+	width: 40%;
+	background-color: green;
+	height: 100%;
+	background-image: url("../../assets/Images/image-grid.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.whyCLcontent {
+	width: 48%;
+	height: 50%;
+	padding: 10px 0px;
+}
+
+.whyCLConten-container {
+	width: 58%;
+	height: 100%;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.whyCLcontent-title {
+	margin-top: 10px;
+	color: $text-color;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+.whyCLcontent-subtitle {
+	margin-top: 10px;
+	color: $text-color-grey-light;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.handArrow {
+	position: absolute;
+	top: -205px;
+	left: 20px;
+	transform: scale(0.8);
+}
