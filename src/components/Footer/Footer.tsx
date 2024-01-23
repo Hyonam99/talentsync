@@ -4,7 +4,7 @@ import Logo from "assets/Images/logo.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import { FaTwitter, FaFacebook, FaYoutube } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import "./Footer.scss";
+import "./footer.scss";
 
 const Footer = () => {
 	return (
